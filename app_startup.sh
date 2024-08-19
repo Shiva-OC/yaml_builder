@@ -10,4 +10,4 @@ echo "[theme]" >> .streamlit/config.toml
 echo "base = \"dark\"" >> .streamlit/config.toml
 
 # Run the Streamlit application
-streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+streamlit run ingest.py --server.port=8501 --server.address=0.0.0.0
